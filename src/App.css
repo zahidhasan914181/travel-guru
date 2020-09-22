@@ -1,0 +1,17 @@
+.background{
+  background: url('./img/Rectangle 1.png');
+  background-size: center;
+  height: 663px;
+  position: relative;
+  z-index: 9;
+}
+.background::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}

@@ -1,0 +1,13 @@
+.logo img{
+    width: 100px;
+}
+.search{
+    width: 500px;
+}
+.search{
+    background: transparent;
+    border: 1px solid gray;
+}
+.search:focus{
+    background: transparent;
+}
